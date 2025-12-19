@@ -1,9 +1,9 @@
 /**
  * PROJECT: Android DoS Behavioral Simulation
  * DESCRIPTION: This file contains the framework-level pseudocode fixes for the 
- * vulnerabilities demonstrated in the project. 
+ * vulnerabilities demonstrated in the project.
 
-
+public class FrameworkMitigation {
 
     // --- FIX FOR CVE-2025-26429 (Input Validation) ---
     // The problem: Unvalidated input allows for unbounded memory allocation.
