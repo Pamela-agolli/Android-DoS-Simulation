@@ -2,7 +2,7 @@
  * PROJECT: Android DoS Behavioral Simulation - Pseudocode
  * DESCRIPTION: This file contains the framework-level pseudocode fixes for the 
  * vulnerabilities demonstrated in the project.
-    */
+ */
 
 public class FrameworkMitigation {
 
@@ -49,7 +49,7 @@ public class FrameworkMitigation {
         mZenRules.add(rule); // Unbounded growth
         applyRules(); // Synchronous processing
     }
-    */
+
 
     private static final int MAX_RULES_PER_APP = 10;
     private static final int MAX_TOTAL_RULES = 100;
