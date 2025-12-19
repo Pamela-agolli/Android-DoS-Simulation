@@ -1,7 +1,8 @@
 /**
- * PROJECT: Android DoS Behavioral Simulation
+ * PROJECT: Android DoS Behavioral Simulation - Pseudocode
  * DESCRIPTION: This file contains the framework-level pseudocode fixes for the 
  * vulnerabilities demonstrated in the project.
+    */
 
 public class FrameworkMitigation {
 
@@ -14,7 +15,7 @@ public class FrameworkMitigation {
             processOperation(key, inputData.get(key)); // Accepts anything
         }
     }
-    */
+
 
     private static final int MAX_BUNDLE_SIZE = 1000;
     private static final int MAX_VALUE_SIZE = 10240; // 10KB max
